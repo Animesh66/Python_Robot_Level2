@@ -21,4 +21,11 @@ Testing a Loop Statement
       log  ${ITEM}
     END
 
+Testing a Loop Statement using list
+    @{MY_LIST} =  create list  cat  dog  elephant
+    FOR  ${ITEM}  IN  @{MY_LIST}
+        log  ${ITEM}
+    END
+
+Testing a dictionary creation
 
