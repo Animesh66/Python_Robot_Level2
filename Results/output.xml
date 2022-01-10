@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220110 16:39:10.500" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220110 19:56:26.209" rpa="false" schemaversion="2">
 <suite id="s1" name="WebTestCases" source="C:\Users\Animesh_Mukherjee\PycharmProjects\Python_Robot_Level2\Tests\WebTestCases.Robot">
 <test id="s1-t1" name="Testing a True IF statement">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -14,14 +14,14 @@
 <kw name="Log" library="BuiltIn">
 <arg>Keyword 2</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.524" level="INFO">Keyword 2</msg>
-<status status="PASS" starttime="20220110 16:39:10.524" endtime="20220110 16:39:10.524"/>
+<msg timestamp="20220110 19:56:26.234" level="INFO">Keyword 2</msg>
+<status status="PASS" starttime="20220110 19:56:26.234" endtime="20220110 19:56:26.234"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.524" endtime="20220110 16:39:10.524"/>
+<status status="PASS" starttime="20220110 19:56:26.234" endtime="20220110 19:56:26.234"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.523" endtime="20220110 16:39:10.524"/>
+<status status="PASS" starttime="20220110 19:56:26.233" endtime="20220110 19:56:26.234"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.523" endtime="20220110 16:39:10.525"/>
+<status status="PASS" starttime="20220110 19:56:26.233" endtime="20220110 19:56:26.234"/>
 </test>
 <test id="s1-t2" name="Testing a Loop Statement">
 <for flavor="IN RANGE">
@@ -32,54 +32,54 @@
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.527" level="INFO">0</msg>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<msg timestamp="20220110 19:56:26.238" level="INFO">0</msg>
+<status status="PASS" starttime="20220110 19:56:26.237" endtime="20220110 19:56:26.238"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<status status="PASS" starttime="20220110 19:56:26.237" endtime="20220110 19:56:26.238"/>
 </iter>
 <iter>
 <var name="${ITEM}">1</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.527" level="INFO">1</msg>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<msg timestamp="20220110 19:56:26.238" level="INFO">1</msg>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.238"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.238"/>
 </iter>
 <iter>
 <var name="${ITEM}">2</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.527" level="INFO">2</msg>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<msg timestamp="20220110 19:56:26.238" level="INFO">2</msg>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.238"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.238"/>
 </iter>
 <iter>
 <var name="${ITEM}">3</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.527" level="INFO">3</msg>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<msg timestamp="20220110 19:56:26.239" level="INFO">3</msg>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.239"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.527" endtime="20220110 16:39:10.527"/>
+<status status="PASS" starttime="20220110 19:56:26.238" endtime="20220110 19:56:26.239"/>
 </iter>
 <iter>
 <var name="${ITEM}">4</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.528" level="INFO">4</msg>
-<status status="PASS" starttime="20220110 16:39:10.528" endtime="20220110 16:39:10.528"/>
+<msg timestamp="20220110 19:56:26.239" level="INFO">4</msg>
+<status status="PASS" starttime="20220110 19:56:26.239" endtime="20220110 19:56:26.239"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.528" endtime="20220110 16:39:10.528"/>
+<status status="PASS" starttime="20220110 19:56:26.239" endtime="20220110 19:56:26.239"/>
 </iter>
-<status status="PASS" starttime="20220110 16:39:10.526" endtime="20220110 16:39:10.528"/>
+<status status="PASS" starttime="20220110 19:56:26.237" endtime="20220110 19:56:26.239"/>
 </for>
-<status status="PASS" starttime="20220110 16:39:10.526" endtime="20220110 16:39:10.528"/>
+<status status="PASS" starttime="20220110 19:56:26.236" endtime="20220110 19:56:26.239"/>
 </test>
 <test id="s1-t3" name="Testing a Loop Statement using list">
 <kw name="Create List" library="BuiltIn">
@@ -88,8 +88,8 @@
 <arg>dog</arg>
 <arg>elephant</arg>
 <doc>Returns a list containing given items.</doc>
-<msg timestamp="20220110 16:39:10.530" level="INFO">@{MY_LIST} = [ cat | dog | elephant ]</msg>
-<status status="PASS" starttime="20220110 16:39:10.530" endtime="20220110 16:39:10.530"/>
+<msg timestamp="20220110 19:56:26.241" level="INFO">@{MY_LIST} = [ cat | dog | elephant ]</msg>
+<status status="PASS" starttime="20220110 19:56:26.241" endtime="20220110 19:56:26.241"/>
 </kw>
 <for flavor="IN">
 <var>${ITEM}</var>
@@ -99,45 +99,63 @@
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.531" level="INFO">cat</msg>
-<status status="PASS" starttime="20220110 16:39:10.531" endtime="20220110 16:39:10.532"/>
+<msg timestamp="20220110 19:56:26.242" level="INFO">cat</msg>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.531" endtime="20220110 16:39:10.532"/>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </iter>
 <iter>
 <var name="${ITEM}">dog</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.532" level="INFO">dog</msg>
-<status status="PASS" starttime="20220110 16:39:10.532" endtime="20220110 16:39:10.532"/>
+<msg timestamp="20220110 19:56:26.242" level="INFO">dog</msg>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.532" endtime="20220110 16:39:10.532"/>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </iter>
 <iter>
 <var name="${ITEM}">elephant</var>
 <kw name="Log" library="BuiltIn">
 <arg>${ITEM}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:39:10.532" level="INFO">elephant</msg>
-<status status="PASS" starttime="20220110 16:39:10.532" endtime="20220110 16:39:10.532"/>
+<msg timestamp="20220110 19:56:26.242" level="INFO">elephant</msg>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </kw>
-<status status="PASS" starttime="20220110 16:39:10.532" endtime="20220110 16:39:10.532"/>
+<status status="PASS" starttime="20220110 19:56:26.242" endtime="20220110 19:56:26.242"/>
 </iter>
-<status status="PASS" starttime="20220110 16:39:10.531" endtime="20220110 16:39:10.532"/>
+<status status="PASS" starttime="20220110 19:56:26.241" endtime="20220110 19:56:26.242"/>
 </for>
-<status status="PASS" starttime="20220110 16:39:10.530" endtime="20220110 16:39:10.533"/>
+<status status="PASS" starttime="20220110 19:56:26.241" endtime="20220110 19:56:26.243"/>
 </test>
-<status status="PASS" starttime="20220110 16:39:10.505" endtime="20220110 16:39:10.535"/>
+<test id="s1-t4" name="Testing a dictionary creation">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>&amp;{MY_DICT}</var>
+<arg>dev=dev.url.com</arg>
+<arg>test=qa.url.com</arg>
+<arg>prod=www.url.com</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220110 19:56:26.245" level="INFO">&amp;{MY_DICT} = { dev=dev.url.com | test=qa.url.com | prod=www.url.com }</msg>
+<status status="PASS" starttime="20220110 19:56:26.245" endtime="20220110 19:56:26.245"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${MY_DICT.test}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220110 19:56:26.246" level="INFO">qa.url.com</msg>
+<status status="PASS" starttime="20220110 19:56:26.246" endtime="20220110 19:56:26.246"/>
+</kw>
+<status status="PASS" starttime="20220110 19:56:26.244" endtime="20220110 19:56:26.247"/>
+</test>
+<status status="PASS" starttime="20220110 19:56:26.215" endtime="20220110 19:56:26.248"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0" skip="0">All Tests</stat>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="0" skip="0" id="s1" name="WebTestCases">WebTestCases</stat>
+<stat pass="4" fail="0" skip="0" id="s1" name="WebTestCases">WebTestCases</stat>
 </suite>
 </statistics>
 <errors>

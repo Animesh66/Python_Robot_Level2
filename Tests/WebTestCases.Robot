@@ -28,4 +28,5 @@ Testing a Loop Statement using list
     END
 
 Testing a dictionary creation
-
+    &{MY_DICT}  create dictionary  dev=dev.url.com  test=qa.url.com  prod=www.url.com
+    log  ${MY_DICT.test}
