@@ -9,7 +9,7 @@ Keyword 1
 Keyword 2
     Log  Keyword 2
 Keyword 3
-    log  Keyword 3
+    Log  Keyword 3
 *** Test Cases ***
 Testing a True IF statement
     run keyword if  ${MY_VALUE} > 50  Keyword 1
