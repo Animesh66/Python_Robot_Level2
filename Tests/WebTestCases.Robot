@@ -17,5 +17,7 @@ Testing a True IF statement
     ...  ELSE  Keyword 2
 
 Testing a Loop Statement
+    :FOR  ${ITEM}  IN RANGE  5
+    \  Do Something ${ITEM}
 
 
