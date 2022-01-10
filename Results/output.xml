@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220110 16:05:48.454" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220110 16:08:50.029" rpa="false" schemaversion="2">
 <suite id="s1" name="WebTestCases" source="C:\Users\Animesh_Mukherjee\PycharmProjects\Python_Robot_Level2\Tests\WebTestCases.Robot">
 <test id="s1-t1" name="Testing a True IF statement">
 <kw name="Run Keyword If" library="BuiltIn">
 <arg>${MY_VALUE} &gt; 50</arg>
 <arg>Keyword 1</arg>
+<arg>ELSE IF ${MY_VALUE} == 50</arg>
+<arg>Keyword 3</arg>
 <arg>ELSE</arg>
 <arg>Keyword 2</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -12,16 +14,16 @@
 <kw name="Log" library="BuiltIn">
 <arg>Keyword 2</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220110 16:05:48.478" level="INFO">Keyword 2</msg>
-<status status="PASS" starttime="20220110 16:05:48.478" endtime="20220110 16:05:48.478"/>
+<msg timestamp="20220110 16:08:50.051" level="INFO">Keyword 2</msg>
+<status status="PASS" starttime="20220110 16:08:50.051" endtime="20220110 16:08:50.051"/>
 </kw>
-<status status="PASS" starttime="20220110 16:05:48.478" endtime="20220110 16:05:48.478"/>
+<status status="PASS" starttime="20220110 16:08:50.051" endtime="20220110 16:08:50.051"/>
 </kw>
-<status status="PASS" starttime="20220110 16:05:48.477" endtime="20220110 16:05:48.478"/>
+<status status="PASS" starttime="20220110 16:08:50.051" endtime="20220110 16:08:50.051"/>
 </kw>
-<status status="PASS" starttime="20220110 16:05:48.477" endtime="20220110 16:05:48.478"/>
+<status status="PASS" starttime="20220110 16:08:50.050" endtime="20220110 16:08:50.052"/>
 </test>
-<status status="PASS" starttime="20220110 16:05:48.459" endtime="20220110 16:05:48.479"/>
+<status status="PASS" starttime="20220110 16:08:50.034" endtime="20220110 16:08:50.053"/>
 </suite>
 <statistics>
 <total>
