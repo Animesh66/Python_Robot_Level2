@@ -20,9 +20,20 @@ Testing a True IF statement
     ...  ELSE IF ${MY_VALUE} == 50  Keyword 3
     ...  ELSE  Keyword 2
 
-Testing a Loop Statement
+Testing multiple Loop Statement
     FOR  ${ITEM}  IN RANGE  5
       log  ${ITEM}
+    END
+
+    repeat keyword  5  Keyword 2
+
+    FOR  ${LIST}  IN  @{NEW_LIST}
+      log  ${LIST}
+    END
+
+    FOR  ${LIST}  IN  @{NEW_LIST}
+      log  ${LIST}
+      exit for loop if  ${LIST}  ==  "dog"
     END
 
 Testing a Loop Statement using list
